@@ -78,5 +78,19 @@ app.post('/messages/save', async (req, res) => {
   }
 })
 
+// add a new page to the app called "About Us"  10/6 H/W
+app.get('/about-us', (req, res) => {
+  res.json({
+    title: 'About Us',
+
+    paragraphs: [
+      "Hi, I'm Gangwon Suh! I'm a junior at New York University majoring in Computer Science and Data Science.",
+      "I'm especially interested in robotics, and within robotics I focus on world models and machine learning.",
+      'Outside of class, I love skiing, watching movies, and riding a bike. I also enjoy exploring new restaurants and finding great food around NYC.',
+    ],
+    githubImageURL: 'https://github.com/gswon.png',
+  })
+})
+
 // export the express app we created to make it available to other modules
 module.exports = app // CommonJS export style!
