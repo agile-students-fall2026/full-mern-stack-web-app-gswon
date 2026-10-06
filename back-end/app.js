@@ -85,7 +85,7 @@ app.get('/about-us', (req, res) => {
 
     paragraphs: [
       "Hi, I'm Gangwon Suh! I'm a junior at New York University majoring in Computer Science and Data Science.",
-      "I'm especially interested in robotics, and within robotics I focus on world models and machine learning.",
+      "I'm especially interested in robotics, and within robotics I focus on world models, machine learning, and reinforcement learning.",
       'Outside of class, I love skiing, watching movies, and riding a bike. I also enjoy exploring new restaurants and finding great food around NYC.',
     ],
     githubImageURL: 'https://github.com/gswon.png',
